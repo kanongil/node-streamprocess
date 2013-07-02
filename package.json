@@ -1,0 +1,27 @@
+{
+  "name": "streamprocess",
+  "version": "0.0.0",
+  "description": "Consume a Readable stream in chunks using an async process function",
+  "main": "streamprocess.js",
+  "scripts": {
+    "test": "node test/test.streamprocess.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kanongil/node-streamprocess.git"
+  },
+  "keywords": [
+    "streams2",
+    "callback",
+    "buffer"
+  ],
+  "author": "Gil Pedersen <gpdev@gpost.dk>",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "directories": {
+    "test": "test"
+  },
+  "bugs": {
+    "url": "https://github.com/kanongil/node-streamprocess/issues"
+  }
+}
