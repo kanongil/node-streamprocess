@@ -1,6 +1,6 @@
 {
   "name": "streamprocess",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Consume a Readable stream in chunks using an async process function",
   "main": "streamprocess.js",
   "scripts": {
