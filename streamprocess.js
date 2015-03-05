@@ -20,9 +20,11 @@ module.exports = function processSequential(readable, initialLen, processFn, don
     processFn(res, getNext)
   }
 
-  readable.once('error', function(e) {
-    err = e;
-  });
+  if (doneCb) {
+    readable.once('error', function(e) {
+      err = e;
+    });
+  }
 
   // start it
   process.nextTick(function () {
